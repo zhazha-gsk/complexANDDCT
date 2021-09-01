@@ -1,0 +1,11 @@
+# （1）plt.plot(x, squares, linewidth=4)作用画图，参数linewidth=4表示将线条的宽度设置为4；
+#
+# （2）plt.title("square of 'x'", fontsize=20)作用为图添加标题square of 'x'，参数fontsize表示设置字体的大小；
+#
+# （3）plt.xlabel("x", fontsize=12)作用为横坐标轴添加标签’x’；
+#
+# （4）plt.ylabel("x^2", fontsize=12)作用为纵坐标轴添加标签x^2；
+#
+# （5）plt.tick_params(axis='both', labelsize=10)作用设置横纵坐标轴刻度的大小，此处大小为10。
+
+#  (6) plt.axis([0, 6, 0, 30])作用设置横纵坐标轴的范围，前两个表示横坐标轴，后两个表示纵坐标轴。
